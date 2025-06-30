@@ -31,6 +31,8 @@ public class IPOConfig{
 	}
 	
 	private static Config rawConfig;
+
+	// Sometimes I wonder why people is allowed to publish these pieces of code...
 	public static Config getRawConfig(){
 		if(rawConfig == null){
 			try{
